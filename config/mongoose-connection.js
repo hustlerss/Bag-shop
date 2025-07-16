@@ -10,4 +10,4 @@ mongoose
     console.log(err);
 })
 
-model.expoerts = mongoose.connection;
+module.exports = mongoose.connection;
