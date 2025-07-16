@@ -1,0 +1,25 @@
+{
+  "name": "bag-shop",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hustlerss/Bag-shop#readme",
+  "bugs": {
+    "url": "https://github.com/hustlerss/Bag-shop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hustlerss/Bag-shop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3"
+  }
+}
