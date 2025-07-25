@@ -17,11 +17,10 @@ app.use(express.static(path.join(__dirname,"public")));
 
 app.set("view engine", "ejs");
 
-app.get('/owners',ownersRouter);
-app.get('/users',usersRouter);
-app.get('products',productsRouter);
+// app.js (fix this)
+app.use('/owners', ownersRouter);
+app.use('/users', usersRouter);
+app.use('/products', productsRouter);
 
-app.listen(3000,()=>{
-    console.log("server is running on port 3000");
 
-});
+app.listen(3000);
