@@ -6,7 +6,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/bag-shop");
 
 // Define user schema
 const userSchema = new mongoose.Schema({
-  name: {
+  fullname: {
     type: String,
     required: true,
     trim: true
@@ -38,7 +38,7 @@ const userSchema = new mongoose.Schema({
   isadmin: Boolean,
 
   orders:{
-    type:String,
+    type:Array,
     default:[]
   },
 

@@ -1,4 +1,4 @@
-const mongoose = require ('moongoose');
+const mongoose = require ('mongoose');
 
 
 const productSchema = mongoose.Schema({
@@ -14,4 +14,4 @@ const productSchema = mongoose.Schema({
     textcolor:String
 
 });
-module.exports = mongoose.model("product","productSchema");
+module.exports = mongoose.model("product",productSchema);
